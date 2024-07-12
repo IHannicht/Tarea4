@@ -1,0 +1,106 @@
+/* estructura formato html*/
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 75px;
+    min-height: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.seccion {
+    padding: 50px 10% 30px;
+}
+
+.seccion_titulo {
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contacto {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.linea_contacto {
+    height: 50px;
+    line-height: 50px;
+}
+
+.firma_contacto {
+    width: 25%;
+    background: #beb9b7;
+    border: solid 1px #beb9b7;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.entrada_contacto {
+    width: 75%;
+    border: solid 1px #beb9b7;
+}
+
+.contenido_contacto {
+    height: 100px;
+}
+
+.entrada_contacto input,
+select,
+textarea {
+    border: none;
+    width: 99%;
+}
+
+.entrada_contacto input,
+select {
+    height: 50px;
+}
+
+.entrada_contacto textarea {
+    height: 100px;
+}
+
+.personal_information {
+    background: #e6e6e6;
+    padding: 10px;
+    height: 100px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+
+.contacto_area {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.boton_contacto {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.boton_contacto+.boton_contacto {
+    margin-left: 10px;
+}
+
+.boton_start {
+    background: #9852a5;
+    color: #fff;
+}
+
+.boton_reset {
+    background: #e6e6e6;
+}
+
+.alert {
+    color: #fff;
+    padding: 20px;
+    background: #d14539;
+}
